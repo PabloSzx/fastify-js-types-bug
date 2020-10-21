@@ -7,5 +7,19 @@ Minimal reproducible example for showing type definitions bug for simple Javascr
 ```sh
 npm i
 ```
+## Code
 
-[Code](./app.js)
+[here](./app.js)
+
+## Solution
+
+As mentioned in the pull request, modify manually in `node_modules/fastify/fastify.d.ts`:
+
+```ts
+// ...
+export { fastify }
+
+declare module 'fastify' {
+  export = fastify;
+}
+```

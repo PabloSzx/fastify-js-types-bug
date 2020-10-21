@@ -1,7 +1,7 @@
-// this fixes it
+// this of course, works
 // const fastify = require("fastify").default;
 
-// way of using requiring "fastify" in most docs
+// but this the way of requiring "fastify" in most docs
 const fastify = require("fastify");
 
 // app ~= any
