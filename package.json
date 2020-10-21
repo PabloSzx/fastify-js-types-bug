@@ -1,0 +1,14 @@
+{
+  "name": "fastify-js-types",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "PabloSz",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "fastify": "^3.7.0"
+  }
+}
